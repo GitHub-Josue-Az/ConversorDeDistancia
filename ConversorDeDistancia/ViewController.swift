@@ -1,25 +1,48 @@
-//
-//  ViewController.swift
-//  ConversorDeDistancia
-//
-//  Created by JosueAlva on 7/05/19.
-//  Copyright © 2019 Josue. All rights reserved.
-//
+
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textFieldKm: UITextField!
+    
+    @IBOutlet weak var labelResultado: UILabel!
+    
+    @IBOutlet weak var labelresult: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
+    @IBAction func convertir(_ sender: UIButton) {
+        
+        let str = textFieldKm.text!
+        var valor = Double(str)!
+        valor = valor/1.609
+        
+        labelResultado.text = "\(str) Kms = \(valor) millas"
+        
+    }
+    
+    
+    @IBAction func convert(_ sender: UIButton) {
+        
+        let str = textFieldKm.text!
+        var valor = Double(str)!
+        valor = valor/0.0009144
+        
+        labelresult.text = "\(str) Kms = \(valor) yardas"
+        
+    }
+    
 }
 
