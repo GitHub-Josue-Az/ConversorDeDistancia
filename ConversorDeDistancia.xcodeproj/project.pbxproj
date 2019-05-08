@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A093D4FE228257060044197D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093D4FD228257060044197D /* ViewController2.swift */; };
+		A093D500228257380044197D /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093D4FF228257380044197D /* ViewController3.swift */; };
 		A0B2621C22822EEF001C4D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2621B22822EEF001C4D3C /* AppDelegate.swift */; };
 		A0B2621E22822EEF001C4D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2621D22822EEF001C4D3C /* ViewController.swift */; };
 		A0B2622122822EEF001C4D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B2621F22822EEF001C4D3C /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A093D4FD228257060044197D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		A093D4FF228257380044197D /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		A0B2621822822EEF001C4D3C /* ConversorDeDistancia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversorDeDistancia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B2621B22822EEF001C4D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B2621D22822EEF001C4D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				A0B2622722822EEF001C4D3C /* LaunchScreen.storyboard */,
 				A0B2622A22822EEF001C4D3C /* Info.plist */,
 				A0B2622222822EEF001C4D3C /* ConversorDeDistancia.xcdatamodeld */,
+				A093D4FD228257060044197D /* ViewController2.swift */,
+				A093D4FF228257380044197D /* ViewController3.swift */,
 			);
 			path = ConversorDeDistancia;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A093D500228257380044197D /* ViewController3.swift in Sources */,
+				A093D4FE228257060044197D /* ViewController2.swift in Sources */,
 				A0B2621E22822EEF001C4D3C /* ViewController.swift in Sources */,
 				A0B2621C22822EEF001C4D3C /* AppDelegate.swift in Sources */,
 				A0B2622422822EEF001C4D3C /* ConversorDeDistancia.xcdatamodeld in Sources */,
